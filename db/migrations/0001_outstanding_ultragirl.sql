@@ -1,0 +1,1 @@
+ALTER TABLE `reviews` ADD `created_by` bigint unsigned;

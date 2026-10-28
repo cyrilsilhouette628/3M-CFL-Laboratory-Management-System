@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1793190554821,
+      "tag": "0000_optimal_iron_monger",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1793191214231,
+      "tag": "0001_outstanding_ultragirl",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1793206089317,
+      "tag": "0002_cheerful_annihilus",
+      "breakpoints": true
+    }
+  ]
+}

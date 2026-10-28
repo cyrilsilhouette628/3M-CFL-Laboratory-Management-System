@@ -1,0 +1,26 @@
+/* 全局样式：数据密集型工作台 */
+#root {
+  min-height: 100vh;
+}
+
+/* 细线数据表格 */
+.data-table {
+  @apply w-full border-collapse text-[13px];
+}
+.data-table th {
+  @apply border border-border bg-secondary/60 px-2.5 py-2 text-left font-medium text-muted-foreground whitespace-nowrap;
+}
+.data-table td {
+  @apply border border-border bg-card px-2.5 py-1.5 align-top;
+}
+.data-table tbody tr {
+  @apply transition-colors;
+}
+.data-table tbody tr:hover td {
+  @apply bg-accent/60;
+}
+
+/* 状态徽标 */
+.badge {
+  @apply inline-flex items-center rounded-sm border px-1.5 py-0.5 text-[11px] font-medium leading-4;
+}
